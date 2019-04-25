@@ -35,7 +35,7 @@ namespace Biomes2
                     var preferred = d.GetCompProperties<CompProperties_OreBiomePreferred>();
                     if (preferred != null && !preferred.allowedBiomes.Contains(map.Biome))
                     {
-                        return d.building.mineableScatterCommonality * 0.5f;
+                        return d.building.mineableScatterCommonality * 0.15f;
                     }
                     return d.building.mineableScatterCommonality;
                 }, null);
