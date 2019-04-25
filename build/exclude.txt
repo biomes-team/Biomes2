@@ -1,8 +1,0 @@
-.git\
-.gitignore
-build\
-.vs\
-.vscode\
-bin\
-obj\
-packages\

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef ParentName="MakeStoneBlocksBase">
+	    <defName>MakeCrystalShards</defName>
+	    <label>make crystal shards</label>
+	    <description>Cuts crystal chunks into usable shards.</description>
+	    <ingredients>
+	        <li>
+	            <filter>
+	                <thingDefs>
+	                    <li>Biomes_ChunkCrystal</li>
+	                </thingDefs>
+	            </filter>
+	            <count>1</count>
+	        </li>
+	    </ingredients>
+	    <fixedIngredientFilter>
+	        <thingDefs>
+	            <li>Biomes_ChunkCrystal</li>
+	        </thingDefs>
+	    </fixedIngredientFilter>
+	    <products>
+	        <Biomes_CrystalShards>20</Biomes_CrystalShards>
+	    </products>
+	</RecipeDef>
+</Defs>

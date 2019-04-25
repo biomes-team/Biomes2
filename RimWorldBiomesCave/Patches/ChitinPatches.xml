@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Megascarab"]/butcherProducts</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="Megascarab"]/butcherProducts</xpath>
+            <value>
+                <butcherProducts>
+                    <Biomes_Chitin>5</Biomes_Chitin>
+                </butcherProducts>
+            </value>
+        </match>        
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="Megascarab"]</xpath>
+            <value>
+                <butcherProducts>
+                    <Biomes_Chitin>5</Biomes_Chitin>
+                </butcherProducts>
+            </value>
+        </nomatch>
+    </Operation>    
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Spelopede"]/butcherProducts</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="Spelopede"]/butcherProducts</xpath>
+            <value>
+                <butcherProducts>
+                    <Biomes_Chitin>15</Biomes_Chitin>
+                </butcherProducts>
+            </value>
+        </match>        
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="Spelopede"]</xpath>
+            <value>
+                <butcherProducts>
+                    <Biomes_Chitin>15</Biomes_Chitin>
+                </butcherProducts>
+            </value>
+        </nomatch>
+    </Operation>
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="Megaspider"]/butcherProducts</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="Megaspider"]/butcherProducts</xpath>
+            <value>
+                <butcherProducts>
+                    <Biomes_Chitin>20</Biomes_Chitin>
+                </butcherProducts>
+            </value>
+        </match>        
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="Megaspider"]</xpath>
+            <value>
+                <butcherProducts>
+                    <Biomes_Chitin>20</Biomes_Chitin>
+                </butcherProducts>
+            </value>
+        </nomatch>
+    </Operation>
+</Patch>
