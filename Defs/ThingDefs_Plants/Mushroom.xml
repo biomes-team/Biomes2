@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="PlantBase">
+        <defName>Biomes_Skulltop</defName>
+        <label>skulltop</label>
+        <altitudeLayer>Building</altitudeLayer>
+        <description>This purple capped mushroom is perhaps the most dangerous in the caverns due to its ability to release toxic spores that rapidly poison anything alive if they are close enough. Its spores are used to create toxic weapons and traps.</description>
+        <statBases>
+            <MaxHitPoints>85</MaxHitPoints>
+        </statBases>
+        <graphicData>
+            <texPath>Plants/Cave/Skulltop</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shadowData>
+                <volume>(0.2, 0.3, 0.13)</volume>
+                <offset>(-0.03,0,-0.44)</offset>
+            </shadowData>
+        </graphicData>
+        <selectable>true</selectable>
+        <hideAtSnowDepth>0.5</hideAtSnowDepth>
+        <ingestible>
+            <preferability>NeverForNutrition</preferability>
+            <nutrition>0</nutrition>
+        </ingestible>
+        <plant>
+            <reproduces>true</reproduces>
+            <growMinGlow>0</growMinGlow>
+            <growOptimalGlow>0</growOptimalGlow>
+            <fertilityMin>0.01</fertilityMin>
+            <fertilitySensitivity>0.15</fertilitySensitivity>
+            <growDays>2.5</growDays>
+            <dieIfLeafless>true</dieIfLeafless>
+            <harvestWork>40</harvestWork>
+            <visualSizeRange>
+                <min>1</min>
+                <max>1.5</max>
+            </visualSizeRange>
+            <cavePlant>true</cavePlant>
+            <topWindExposure>0.4</topWindExposure>
+            <reproduceMtbDays>5</reproduceMtbDays>
+            <neverBlightable>true</neverBlightable>
+            <harvestWork>250</harvestWork>
+            <harvestTag>Standard</harvestTag>
+            <harvestYield>1</harvestYield>
+            <harvestedThingDef>Biomes_SkulltopCap</harvestedThingDef>
+        </plant>
+        <comps>
+            <li Class="RimWorldBiomesCore.CompProperties_ReactiveDefense">
+                <defenseTrigger>proximity</defenseTrigger>
+                <defenseType>aura</defenseType>
+                <aura>Biomes_SkulltopSpore</aura>
+            </li>
+        </comps>
+        <tickerType>Normal</tickerType>
+    </ThingDef>
+</Defs>
