@@ -58,6 +58,9 @@
     <Compile Include="CompProperties_ReactiveDefense.cs" />
     <Compile Include="CompReactiveDefense.cs" />
     <Compile Include="GenStep_ScatterLumpsMineable_BiomePreferred.cs" />
+    <Compile Include="JobGiver_WanderWater.cs" />
+    <Compile Include="JobGiver_WanderWaterAnywhere.cs" />
+    <Compile Include="JobGiver_WanderWaterHerd.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
