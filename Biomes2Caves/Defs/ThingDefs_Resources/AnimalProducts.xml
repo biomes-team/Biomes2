@@ -5,7 +5,7 @@
     	<label>chitin</label>
     	<description>A rough plated material gathered from arthropods, often used to make armor and clothing.</description>
     	<graphicData>
-    	 	<texPath>Things/Resources/Chitin</texPath>
+    	 	<texPath>Things/Resources/AnimalProducts/Chitin</texPath>
     	 	<graphicClass>Graphic_Single</graphicClass>
             <color>(213,186,142)</color>
     	</graphicData>

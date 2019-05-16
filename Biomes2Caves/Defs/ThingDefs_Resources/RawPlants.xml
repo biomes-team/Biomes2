@@ -5,11 +5,12 @@
         <label>skulltop cap</label>
         <description>The cap of a Skulltop.</description>
         <graphicData>
-            <texPath>Things/Resources/SkulltopCap</texPath>
+            <texPath>Things/Resources/RawPlants/SkulltopCap</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>1.1</MarketValue>
+            <Mass>10</Mass>
         </statBases>
         <comps>
             <li Class="CompProperties_Rottable">

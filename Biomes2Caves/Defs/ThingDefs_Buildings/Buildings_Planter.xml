@@ -6,7 +6,7 @@
         <description>A portable box for growing plants quickly.</description>
         <thingClass>Building_PlantGrower</thingClass>
         <graphicData>
-            <texPath>Buildings/PlanterBox</texPath>
+            <texPath>Buildings/PlanterBox1x1</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(1,1)</drawSize>
             <damageData>

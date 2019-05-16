@@ -3,10 +3,10 @@
     <ThingDef ParentName="BuildingBase">
 		<defName>Biomes_SkulltopSpore</defName>
 		<label>skulltop spore</label>
-		<soundImpactDefault>BulletImpactGround</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
 		<selectable>false</selectable>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<filthLeaving>FilthDirt</filthLeaving>
+		<filthLeaving>Filth_Dirt</filthLeaving>
 		<blockWind>false</blockWind>
 		<graphicData>
 		    <texPath>Particles/Skulltop_Spore</texPath>
@@ -30,11 +30,11 @@
 		<neverMultiSelect>true</neverMultiSelect>
         <castEdgeShadows>false</castEdgeShadows>
         <comps>
-		   	<li Class="RimWorldBiomesCore.CompProperties_AuraParticle">
+		   	<li Class="Biomes2Core.CompProperties_AuraParticle">
                 <hediff>ToxicBuildup</hediff>
                 <severity>0.00025</severity>
-                <releasedBy>plant</releasedBy>
-                <parentThing>SkullTop</parentThing>
+                <releasedBy>Plant</releasedBy>
+                <parent>Biomes_Skulltop</parent>
                 <forceFlee>true</forceFlee>
                 <warn>true</warn>
             </li>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <ThingDef ParentName="ChunkRockBase">
+	<ThingDef ParentName="ChunkRockBase">
 		<thingClass>ThingWithComps</thingClass>
 		<defName>Biomes_ChunkCrystal</defName>
 		<label>crystal chunk</label>
 		<graphicData>
-			<texPath>Things/Resources/Rough_Crystal</texPath>
+			<texPath>Things/Resources/Ore/Rough_Crystal</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -16,46 +16,46 @@
 			<Biomes_CrystalShards>20</Biomes_CrystalShards>
 		</butcherProducts>
 		<comps>
-		<li Class="CompProperties_Glower">
+			<li Class="CompProperties_Glower">
 				<glowRadius>2</glowRadius>
 				<glowColor>(170,219,255,0.5)</glowColor>
 			</li>
 		</comps>
 	</ThingDef>
-
 	<ThingDef ParentName="StoneBlocksBase">
 		<thingClass>ThingWithComps</thingClass>
-	    <defName>Biomes_CrystalShards</defName>
-	    <label>crystal shards</label>
-	    <description>Pulsating crystals storing immense amounts of energy. Advanced technology can extract the energy in controlled or uncontrolled bursts.</description>
-	    <graphicData>
-	        <texPath>Things/Resources/Smooth_Crystal</texPath>
-            <graphicClass>Graphic_StackCount</graphicClass>
-	    </graphicData>
-	    <statBases>
-	        <MarketValue>2</MarketValue>
-	        <Mass>1</Mass>
-	        <SharpDamageMultiplier>2</SharpDamageMultiplier>
-	    </statBases>
-	    <stuffProps>
-            <categories>
-                <li>Stony</li>
-            </categories>
-	        <color>(170,219,255)</color>
-	        <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
-	        <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
-	        <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-	        <statFactors>
-	            <Beauty>1.5</Beauty>
-	            <MarketValue>2.0</MarketValue>
-	            <MaxHitPoints>1.4</MaxHitPoints>
-	        </statFactors>
-	    </stuffProps>
-        <comps>
-            <li Class="CompProperties_Glower">
-                <glowRadius>3</glowRadius>
-                <glowColor>(170,219,255,1)</glowColor>
-            </li>
-        </comps>
+		<defName>Biomes_CrystalShards</defName>
+		<label>crystal shards</label>
+		<description>Pulsating crystals storing immense amounts of energy. Advanced technology can extract the energy in controlled or uncontrolled bursts.</description>
+		<graphicData>
+			<texPath>Things/Resources/Ore/Smooth_Crystal</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<Mass>1</Mass>
+			<SharpDamageMultiplier>2</SharpDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Stony</li>
+			</categories>
+			<commonality>0.05</commonality>
+			<color>(170,219,255)</color>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<statFactors>
+				<Beauty>1.5</Beauty>
+				<MarketValue>2.0</MarketValue>
+				<MaxHitPoints>1.4</MaxHitPoints>
+			</statFactors>
+		</stuffProps>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(170,219,255,1)</glowColor>
+			</li>
+		</comps>
 	</ThingDef>
 </Defs>

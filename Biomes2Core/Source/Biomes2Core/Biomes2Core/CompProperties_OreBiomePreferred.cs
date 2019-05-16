@@ -6,7 +6,7 @@ using System.Text;
 using Verse;
 using RimWorld;
 
-namespace Biomes2
+namespace Biomes2Core
 {
     public class CompProperties_OreBiomePreferred : CompProperties
     {

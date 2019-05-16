@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <SiteCoreDef>
+        <defName>Biomes_SkulltopSprout</defName>
+        <label>skulltop sprout</label>
+        <description>A sprouting of deadly but valuable skulltop.</description>
+        <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+        <expandingIconTexture>World/Expanding/Skulltop</expandingIconTexture>
+        <workerClass>Biomes2Caves.SiteCoreWorker_SkulltopSprout</workerClass>
+    </SiteCoreDef>
+</Defs>

@@ -5,7 +5,7 @@ using System.Text;
 
 using Verse;
 
-namespace Biomes2
+namespace Biomes2Core
 {
     public class CompOreBiomePreferred : ThingComp
     {

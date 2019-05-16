@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <ThingDef ParentName="RockBase">
-    <defName>Biomes_MineableCrystal</defName>
-    <label>crystal ore</label>
-    <description>Crystal shards embedded in rock.</description>
-    <graphicData>
-        <texPath>Buildings/Ore/Crystal</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-        <shaderType>CutoutComplex</shaderType>
-        <color>(170,219,255)</color>
-        <colorTwo>(140,120,100)</colorTwo>
-    </graphicData>
-    <statBases>
-        <MaxHitPoints>1500</MaxHitPoints>
-    </statBases>
-    <building>
-        <isResourceRock>true</isResourceRock>
-        <mineableThing>Biomes_ChunkCrystal</mineableThing>
-        <mineableYield>1</mineableYield>
-        <mineableScatterCommonality>0.4</mineableScatterCommonality>
-        <mineableScatterLumpSizeRange>
-            <min>15</min>
-            <max>30</max>
-        </mineableScatterLumpSizeRange>
-    </building>
-    <comps>
-        <li Class="CompProperties_Glower">
-            <glowRadius>3</glowRadius>
-            <glowColor>(170,219,255,1)</glowColor>
-        </li>
-        <li Class="Biomes2.CompProperties_OreBiomePreferred">
-            <allowedBiomes>
-                <li>CaveOasis</li>
-                <li>TunnelworldCave</li>
-                <li>CaveEntrance</li>
-                <li>InfestedMountains</li>
-            </allowedBiomes>
-        </li>
-    </comps>
-  </ThingDef>
+        <defName>Biomes_MineableCrystal</defName>
+        <label>crystal ore</label>
+        <description>Crystal shards embedded in rock.</description>
+        <graphicData>
+            <texPath>Buildings/Ore/Crystal</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <color>(170,219,255)</color>
+            <colorTwo>(140,120,100)</colorTwo>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>1500</MaxHitPoints>
+        </statBases>
+        <building>
+            <isResourceRock>true</isResourceRock>
+            <mineableThing>Biomes_ChunkCrystal</mineableThing>
+            <mineableYield>1</mineableYield>
+            <mineableScatterCommonality>0.4</mineableScatterCommonality>
+            <mineableScatterLumpSizeRange>
+                <min>15</min>
+                <max>30</max>
+            </mineableScatterLumpSizeRange>
+        </building>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>3</glowRadius>
+                <glowColor>(170,219,255,1)</glowColor>
+            </li>
+            <li Class="Biomes2Core.CompProperties_OreBiomePreferred">
+                <allowedBiomes>
+                    <li>CaveOasis</li>
+                    <li>TunnelworldCave</li>
+                    <li>CaveEntrance</li>
+                    <li>InfestedMountains</li>
+                    <li>DesertCanyon</li>
+                </allowedBiomes>
+            </li>
+        </comps>
+    </ThingDef>
 </Defs>
