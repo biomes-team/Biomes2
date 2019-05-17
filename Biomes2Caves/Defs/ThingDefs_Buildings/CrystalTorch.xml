@@ -42,7 +42,7 @@
         <comps>
             <li Class="CompProperties_Glower">
                 <glowRadius>6</glowRadius>
-                <glowColor>(170,219,255,1)</glowColor>
+                <glowColor>(166,219,246,1)</glowColor>
             </li>
         </comps>
         <designationCategory>Furniture</designationCategory>
