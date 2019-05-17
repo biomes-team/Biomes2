@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <RecipeDef ParentName="MakeStoneBlocksBase">
-	    <defName>MakeCrystalShards</defName>
+	    <defName>Biomes_MakeCrystalShards</defName>
 	    <label>make crystal shards</label>
 	    <description>Cuts crystal chunks into usable shards.</description>
 	    <ingredients>

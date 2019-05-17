@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <RecipeDef>
-        <defName>MakeSporeContainer</defName>
+        <defName>Biomes_MakeSporeContainer</defName>
         <label>make spore container</label>
         <description>Make a spore container.</description>
         <jobString>Making spore container.</jobString>
