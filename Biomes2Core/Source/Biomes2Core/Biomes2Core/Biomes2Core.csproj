@@ -56,8 +56,14 @@
     <Compile Include="CompProperties_AuraParticle.cs" />
     <Compile Include="CompProperties_OreBiomePreferred.cs" />
     <Compile Include="CompProperties_ReactiveDefense.cs" />
+    <Compile Include="CompProperties_WaterAnimal.cs" />
+    <Compile Include="CompProperties_WaterPlant.cs" />
     <Compile Include="CompReactiveDefense.cs" />
+    <Compile Include="CompWaterAnimal.cs" />
+    <Compile Include="CompWaterPlant.cs" />
     <Compile Include="GenStep_ScatterLumpsMineable_BiomePreferred.cs" />
+    <Compile Include="GenStep_WaterAnimal.cs" />
+    <Compile Include="GenStep_WaterPlant.cs" />
     <Compile Include="JobGiver_WanderWater.cs" />
     <Compile Include="JobGiver_WanderWaterAnywhere.cs" />
     <Compile Include="JobGiver_WanderWaterHerd.cs" />
