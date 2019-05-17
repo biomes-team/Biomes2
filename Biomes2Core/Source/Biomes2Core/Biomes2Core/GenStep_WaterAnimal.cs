@@ -10,7 +10,7 @@ namespace Biomes2Core
 {
     public class GenStep_WaterAnimal : GenStep
     {
-        public override int SeedPart => 925489023;
+        public override int SeedPart => 17460205;
 
         public override void Generate(Map map, GenStepParams parms)
         {
