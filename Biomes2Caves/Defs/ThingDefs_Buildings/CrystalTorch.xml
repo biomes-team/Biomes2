@@ -26,6 +26,7 @@
             <MaxHitPoints>100</MaxHitPoints>
             <WorkToBuild>250</WorkToBuild>
             <Flammability>0</Flammability>
+            <Mass>4</Mass>
         </statBases>
         <selectable>true</selectable>
         <stuffCategories>
@@ -35,7 +36,7 @@
         <costList>
             <Biomes_CrystalShards>25</Biomes_CrystalShards>
         </costList>
-        <soundImpactDefault>BulletImpactGround</soundImpactDefault>
+        <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
         <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
         <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
         <comps>
@@ -46,6 +47,9 @@
         </comps>
         <designationCategory>Furniture</designationCategory>
         <designationHotKey>Misc10</designationHotKey>
-        <minifiedDef>MinifiedFurniture</minifiedDef>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
     </ThingDef>
 </Defs>
