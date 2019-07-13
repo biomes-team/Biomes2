@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--========== Basic leathers ============-->
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Mole_Skin</defName>
+    <label>mole skin</label>
+    <graphicData>
+      <color>(117,117,117)</color>
+    </graphicData>
+	<statBases>
+      <MarketValue>3.4</MarketValue>
+      <StuffPower_Armor_Sharp>0.14</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>1.14</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(117,117,117)</color>
+      <commonality>0.10</commonality>
+	  <statFactors>
+        <MaxHitPoints>2.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="LeatherBase">
+    <defName>Bat_Skin</defName>
+    <label>bat skin</label>
+    <graphicData>
+      <color>(110,95,82)</color>
+    </graphicData>
+	<statBases>
+      <MarketValue>3.4</MarketValue>
+      <StuffPower_Armor_Sharp>0.24</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>0.24</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(110,95,82)</color>
+      <commonality>0.10</commonality>
+	  <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="LeatherBase">
+    <defName>Crystalope_Skin</defName>
+    <label>crystalope skin</label>
+    <graphicData>
+      <color>(197,197,197)</color>
+    </graphicData>
+	<statBases>
+      <MarketValue>13.4</MarketValue>
+      <StuffPower_Armor_Sharp>2.50</StuffPower_Armor_Sharp>
+	  <StuffPower_Armor_Blunt>1.50</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>40</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>40</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(197,197,197)</color>
+      <commonality>0.05</commonality>
+	  <statFactors>
+        <MaxHitPoints>3.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <!--========== Super leathers ============-->
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Cenbes_Whale_Made_Leather</defName>
+    <label>DEBUG_LEATHER</label>
+    <description>Leather assembled in whale mollecular assembler, used for artificial skins of nearly all Whale creations that are suppose to live among living and mak themself as one of them.</description>
+    <graphicData>
+      <color>(237,184,116)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>14000.0</MarketValue>
+      <StuffPower_Armor_Sharp>100.00</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>100.00</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>200</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>200</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(237,184,116)</color>
+      <commonality>0.01</commonality>
+      <statFactors>
+        <MaxHitPoints>100.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+</Defs>
