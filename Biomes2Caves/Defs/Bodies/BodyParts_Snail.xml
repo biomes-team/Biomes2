@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+      <BodyPartDef>
+      <defName>LeftTentacle</defName>
+      <label>left tentacle</label>
+      <hitPoints>90</hitPoints>
+      <skinCovered>true</skinCovered>
+   </BodyPartDef>
+   <BodyPartDef>
+      <defName>RightTentacle</defName>
+      <label>right tentacle</label>
+      <hitPoints>90</hitPoints>
+      <skinCovered>true</skinCovered>
+   </BodyPartDef>
+   <BodyPartDef>
+      <defName>Snailhead</defName>
+      <label>head</label>
+      <hitPoints>200</hitPoints>
+      <skinCovered>true</skinCovered>
+      <tags>
+         <li>BreathingPathway</li>
+         <li>EatingPathway</li>
+         <li>TalkingPathway</li>
+      </tags>
+   </BodyPartDef>
+   <BodyPartDef>
+      <defName>SnailShell</defName>
+      <label>snail shell</label>
+      <hitPoints>3000</hitPoints>
+      <skinCovered>false</skinCovered>
+   </BodyPartDef>
+</Defs>

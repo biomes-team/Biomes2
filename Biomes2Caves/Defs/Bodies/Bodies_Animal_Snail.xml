@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ======================== Giant Snail ======================== -->
+
+   <BodyDef>
+      <defName>GiantSnail</defName>
+      <label>giant snail</label>
+      <corePart>
+         <def>SnailShell</def>
+         <height>Top</height>
+         <depth>Outside</depth>
+         <parts>
+            <li>
+               <def>Foot</def>
+               <coverage>0.1</coverage>
+               <height>Bottom</height>
+            </li>
+            <li>
+               <def>Stomach</def>
+               <coverage>0.04</coverage>
+               <depth>Inside</depth>
+            </li>
+            <li>
+               <def>Heart</def>
+               <coverage>0.03</coverage>
+               <depth>Inside</depth>
+            </li>
+            <li>
+               <def>Lung</def>
+               <coverage>0.04</coverage>
+               <depth>Inside</depth>
+            </li>
+            <li>
+               <def>Kidney</def>
+               <coverage>0.03</coverage>
+               <depth>Inside</depth>
+            </li>
+            <li>
+               <def>Liver</def>
+               <coverage>0.05</coverage>
+               <depth>Inside</depth>
+            </li>
+            <li>
+               <def>Snailhead</def>
+               <height>Top</height>
+			   <depth>Outside</depth>
+               <coverage>0.65</coverage>
+               <groups>
+                  <li>HeadAttackTool</li>
+               </groups>
+               <parts>
+                  <li>
+                     <def>Brain</def>
+                     <coverage>0.2</coverage>
+                     <depth>Inside</depth>
+                  </li>
+                  <li>
+				   <def>Eye</def>
+				   <customLabel>left eye</customLabel>
+                     <coverage>0.15</coverage>
+					 <depth>Outside</depth>
+                  </li>
+                  <li>
+				   <def>Eye</def>
+				   <customLabel>right eye</customLabel>
+					 <depth>Outside</depth>
+                  </li>
+                  <li>
+                     <def>LeftTentacle</def>
+                     <coverage>0.10</coverage>
+					 <depth>Outside</depth>
+                  </li>
+                  <li>
+                     <def>RightTentacle</def>
+                     <coverage>0.10</coverage>
+					 <depth>Outside</depth>
+                  </li>
+                  <li>
+                     <def>InsectMouth</def>
+                     <coverage>0.10</coverage>
+                     <groups>
+                        <li>Mouth</li>
+                     </groups>
+					 <depth>Outside</depth>
+                  </li>
+               </parts>
+            </li>
+         </parts>
+      </corePart>
+   </BodyDef>
+</Defs>

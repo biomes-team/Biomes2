@@ -23,6 +23,8 @@
 				<offset>(-0.03,0,-0.44)</offset>
 			</shadowData>		
 		</graphicData>
+    	    	<selectable>true</selectable>
+     	   	<neverMultiSelect>false</neverMultiSelect>
 		<statBases>
 			<MaxHitPoints>280</MaxHitPoints>
 			<Beauty>2</Beauty>
@@ -85,6 +87,8 @@
 				<offset>(-0.03,0,-0.44)</offset>
 			</shadowData>		
 		</graphicData>
+    	    	<selectable>true</selectable>
+     	   	<neverMultiSelect>false</neverMultiSelect>
 		<statBases>
 			<MaxHitPoints>280</MaxHitPoints>
 			<Beauty>2</Beauty>
@@ -147,6 +151,8 @@
 				<offset>(-0.03,0,-0.44)</offset>
 			</shadowData>		
 		</graphicData>
+    	    	<selectable>true</selectable>
+     	   	<neverMultiSelect>false</neverMultiSelect>
 		<statBases>
 			<MaxHitPoints>280</MaxHitPoints>
 			<Beauty>2</Beauty>
