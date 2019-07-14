@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef>
+        <defName>Biomes_MakeSporeContainer</defName>
+        <label>make spore container</label>
+        <description>Make a spore container.</description>
+        <jobString>Making spore container.</jobString>
+        <workSpeedStat>SmithingSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>3000</workAmount>
+        <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+        <recipeUsers>
+            <li>DrugLab</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Biomes_SkulltopCap</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Biomes_SkulltopCap</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Biomes_SporeContainer>5</Biomes_SporeContainer>
+        </products>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <workSkill>Crafting</workSkill>
+    </RecipeDef>
+</Defs>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="ResourceBase">
+        <defName>Biomes_SkulltopCap</defName>
+        <label>skulltop cap</label>
+        <description>The cap of a Skulltop.</description>
+        <graphicData>
+            <texPath>Things/Resources/RawPlants/SkulltopCap</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.1</MarketValue>
+            <Mass>10</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>40</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <tickerType>Rare</tickerType>
+        <thingCategories>
+            <li>PlantMatter</li>
+        </thingCategories>
+    </ThingDef>
+<ThingDef ParentName="ResourceBase">
+        <defName>Biomes_RawPaleBeets</defName>
+        <label>Raw Pale Beets</label>
+        <description>A bundle of harvested Pale Beets.</description>
+        <graphicData>
+            <texPath>Things/Resources/RawPlants/RawBeets</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.1</MarketValue>
+            <Mass>10</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>40</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <tickerType>Rare</tickerType>
+        <thingCategories>
+            <li>PlantMatter</li>
+        </thingCategories>
+    </ThingDef>
+<ThingDef ParentName="ResourceBase">
+        <defName>Biomes_MortalMorel</defName>
+        <label>Fungal Medicine</label>
+        <description>A bundle of prepared fungal medicine.</description>
+        <graphicData>
+            <texPath>Things/Resources/RawPlants/FungalMedicine</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>30.1</MarketValue>
+            <Mass>10</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>40</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <tickerType>Rare</tickerType>
+        <thingCategories>
+            <li>PlantMatter</li>
+        </thingCategories>
+    </ThingDef>
+<ThingDef ParentName="ResourceBase">
+        <defName>Biomes_Glowfruit</defName>
+        <label>Glowfruit</label>
+        <description>A basket of Glowfruit collected from a Glowfruit Tree.</description>
+        <graphicData>
+            <texPath>Things/Resources/RawPlants/Glowfruit</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.1</MarketValue>
+            <Mass>10</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>40</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <tickerType>Rare</tickerType>
+        <thingCategories>
+            <li>PlantMatter</li>
+        </thingCategories>
+    </ThingDef>
+<ThingDef ParentName="ResourceBase">
+        <defName>Biomes_KessingerMushroom</defName>
+        <label>Kessinger Mushroom</label>
+        <description>A bundle of harvested Kessinger Shroom tendrils.</description>
+        <graphicData>
+            <texPath>Things/Resources/RawPlants/KessingerShroom</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.1</MarketValue>
+            <Mass>10</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>40</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <tickerType>Rare</tickerType>
+        <thingCategories>
+            <li>PlantMatter</li>
+        </thingCategories>
+    </ThingDef>
+<ThingDef ParentName="ResourceBase">
+        <defName>Biomes_DulcisMushroom</defName>
+        <label>Dulcis Mushroom</label>
+        <description>A bouquet of harvested Dulcis Mushroom Stalks.</description>
+        <graphicData>
+            <texPath>Things/Resources/RawPlants/DulcisShroom</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.1</MarketValue>
+            <Mass>10</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>40</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <tickerType>Rare</tickerType>
+        <thingCategories>
+            <li>PlantMatter</li>
+        </thingCategories>
+    </ThingDef>
+<ThingDef ParentName="ResourceBase">
+        <defName>Biomes_BluebellCuts</defName>
+        <label>Bluebell Cuts</label>
+        <description>A collection of harvested Bluebell Shroom cuts.</description>
+        <graphicData>
+            <texPath>Things/Resources/RawPlants/Shinecap</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.1</MarketValue>
+            <Mass>10</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>40</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <tickerType>Rare</tickerType>
+        <thingCategories>
+            <li>PlantMatter</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

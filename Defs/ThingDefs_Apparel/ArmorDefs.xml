@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="ApparelMakeableBase">
+        <defName>Biomes_ChitinArmor</defName>
+        <label>chitin armor</label>
+        <techLevel>Neolithic</techLevel>
+        <description>Armor made from chitin</description>
+        <graphicData>
+            <texPath>Things/Apparel/ChitinArmor/ChitinArmor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>12000</WorkToMake>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Mass>1.2</Mass>
+            <ArmorRating_Blunt>0.13</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+        </statBases>
+        <costList>
+            <Biomes_Chitin>40</Biomes_Chitin>
+            <Steel>10</Steel>
+        </costList>
+        <costStuffCount>20</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>
+        <thingCategories>
+            <li>Apparel</li>
+        </thingCategories>
+        <generateCommonality>0.1</generateCommonality>
+        <apparel>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <wornGraphicPath>Things/Apparel/ChitinArmor/ChitinArmor</wornGraphicPath>
+            <layers>
+                <li>Middle</li>
+                <li>Shell</li>
+            </layers>
+            <bodyPartGroups>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Torso</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+        </apparel>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+    <ThingDef ParentName="HatMakeableBase">
+        <defName>Biomes_ChitinHelmet</defName>
+        <label>chitin helmet</label>
+        <techLevel>Neolithic</techLevel>
+        <description>Armor made from chitin</description>
+        <graphicData>
+            <texPath>Things/Apparel/ChitinHelmet/ChitinHelm</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costList>
+            <Biomes_Chitin>20</Biomes_Chitin>
+            <Steel>10</Steel>
+        </costList>
+        <costStuffCount>20</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>
+        <statBases>
+            <WorkToMake>12000</WorkToMake>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Mass>1.2</Mass>
+            <ArmorRating_Blunt>0.13</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.02</MoveSpeed>
+            <SocialImpact>-0.1</SocialImpact>
+        </equippedStatOffsets>
+        <generateCommonality>0.1</generateCommonality>
+        <apparel>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <wornGraphicPath>Things/Apparel/ChitinHelmet/ChitinHelm</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <bodyPartGroups>
+                <li>FullHead</li>
+            </bodyPartGroups>
+        </apparel>
+    </ThingDef>
+</Defs>
