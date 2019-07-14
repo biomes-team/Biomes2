@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="CaveTreeBase" ParentName="TreeBase" Abstract="True">
+		<thingClass>Terra.PlantPlus</thingClass>
+		<fillPercent>0.35</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>150</pathCost>
+		<blockWind>true</blockWind>
+		<statBases>
+			<MaxHitPoints>260</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<Beauty>12</Beauty>
+			<Nutrition>1.6</Nutrition>
+		</statBases>
+		<plant>
+			<lifespanDaysPerGrowDays>12</lifespanDaysPerGrowDays>
+			<harvestedThingDef>HardwoodLog</harvestedThingDef>
+   			<cavePlant>true</cavePlant>
+			<harvestWork>800</harvestWork>	
+			<harvestYield>50</harvestYield>
+			<harvestTag>Wood</harvestTag>
+			<visualSizeRange>
+				<min>1.4</min>
+				<max>2.2</max>
+			</visualSizeRange>
+			<topWindExposure>0.25</topWindExposure>
+			<wildClusterRadius>6</wildClusterRadius>
+			<wildClusterWeight>8</wildClusterWeight>
+			<wildOrder>3</wildOrder>
+		</plant>
+	</ThingDef>
+
+	
+</Defs>
