@@ -36,8 +36,9 @@
       <baseBodySize>4.8</baseBodySize>
       <baseHungerRate>0.10</baseHungerRate>
       <baseHealthScale>0.4</baseHealthScale>
-	  
-	 <foodType>VegetarianRoughAnimal</foodType>
+	<useMeatFrom>Megaspider</useMeatFrom>
+      <leatherDef>Biomes_Chitin</leatherDef>
+	<foodType>VegetarianRoughAnimal</foodType>
       <trainability>Simple</trainability>
 	 <wildness>0.95</wildness>
 	 <gestationPeriodDays>7</gestationPeriodDays>

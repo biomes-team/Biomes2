@@ -38,6 +38,7 @@
 	<foodType>CarnivoreAnimal, Kibble, Fluid</foodType>
       <trainability>Advanced</trainability>
       <predator>true</predator>
+      <leatherDef>Biomes_Chitin</leatherDef>
       <manhunterOnDamageChance>0.1</manhunterOnDamageChance>
       <useMeatFrom>Megaspider</useMeatFrom>
       <maxPreyBodySize>0.4</maxPreyBodySize>

@@ -92,6 +92,9 @@
 			<Clear>30</Clear>
 		</baseWeatherCommonalities>
 		<wildPlants>
+			<Biomes_GoldenSporecap>5.0</Biomes_GoldenSporecap>
+			<Biomes_GiantParasol>5.0</Biomes_GiantParasol>
+			<Biomes_IvoryJadecap>5.0</Biomes_IvoryJadecap>
 			<Bryolux>5.0</Bryolux>
 			<Glowstool>0.7</Glowstool>
 			<Plant_BlackGlowstool>1.5</Plant_BlackGlowstool>
@@ -106,6 +109,11 @@
 			<LureLizard>1.9</LureLizard>
 			<Maxolotl>1.9</Maxolotl>
 			<Mole>1.9</Mole>
+			<BovineBeetle>1.9</BovineBeetle>
+			<FeelerSnake>1.9</FeelerSnake>
+			<Crystalope>1.9</Crystalope>
+			<MossBeetle>1.9</MossBeetle>
+			<RhinoBeetle>1.9</RhinoBeetle>
 		</wildAnimals>
 		<allowedPackAnimals>
 			<li>Alpaca</li>
