@@ -49,6 +49,7 @@
 				<minSunscaldTemperature>50</minSunscaldTemperature>
 				<maxTemperature>58</maxTemperature>
 				<temperatureSensitivity>0</temperatureSensitivity>
+				<suboptimalLightGrowthSensitivity>0</suboptimalLightGrowthSensitivity>
 				<isGreenManure>false</isGreenManure>
 				<manureFertilityFactor>0</manureFertilityFactor>
 				<growthSteps>
@@ -113,6 +114,7 @@
 				<minSunscaldTemperature>50</minSunscaldTemperature>
 				<maxTemperature>58</maxTemperature>
 				<temperatureSensitivity>0</temperatureSensitivity>
+				<suboptimalLightGrowthSensitivity>0</suboptimalLightGrowthSensitivity>
 				<isGreenManure>false</isGreenManure>
 				<manureFertilityFactor>0</manureFertilityFactor>
 				<growthSteps>
@@ -177,6 +179,7 @@
 				<minSunscaldTemperature>50</minSunscaldTemperature>
 				<maxTemperature>58</maxTemperature>
 				<temperatureSensitivity>0</temperatureSensitivity>
+				<suboptimalLightGrowthSensitivity>0</suboptimalLightGrowthSensitivity>
 				<isGreenManure>false</isGreenManure>
 				<manureFertilityFactor>0</manureFertilityFactor>
 				<growthSteps>
