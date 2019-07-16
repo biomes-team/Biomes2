@@ -258,14 +258,14 @@
 		<label>tunnelworld cave</label>
 		<description>An underground cave system of many interconnected tunnels. These areas were mostly formed naturally due to plate tectonics or other geological activity. These tunnels are deep under a solid rock ceiling, so no sunlight will every reach here. Therefore plants are non-existent, instead various mushrooms inhabitate the caves, some of them even provide a little light for animals to live in this region.</description>
 		<workerClass>Terra.BiomeWorkerSpecial_TunnelworldCave</workerClass>
-		<animalDensity>0.10</animalDensity>
-		<plantDensity>0.32</plantDensity>
+		<animalDensity>1.14</animalDensity>
+		<plantDensity>1.6</plantDensity>
 		<settlementSelectionWeight>0</settlementSelectionWeight>
 		<movementDifficulty>3</movementDifficulty>
 		<texture>World/Biomes/TunnelworldCave</texture>
 		<forageability>0.5</forageability>
 		<foragedFood>RawFungus</foragedFood>
-		<wildPlantRegrowDays>35</wildPlantRegrowDays>
+		<wildPlantRegrowDays>0.5</wildPlantRegrowDays>
 		<diseaseMtbDays>70</diseaseMtbDays>
 		<diseases>
 			<li>
@@ -346,14 +346,18 @@
 			<Plant_RedGigant>0.21</Plant_RedGigant>
 		</wildPlants>
 		<wildAnimals>
-			<Hare>0.9</Hare>
-			<Rat>1.8</Rat>
-			<Iguana>0.6</Iguana>
-			<WildBoar>0.15</WildBoar>
-			<Boomrat>0.5</Boomrat>
-			<Boomalope>0.05</Boomalope>
-			<Bear_Grizzly>0.07</Bear_Grizzly>
-			<Cobra>0.04</Cobra>
+			<FruitBat>1.9</FruitBat>
+			<VampireBat>1.9</VampireBat>
+			<GiantSnail>1.9</GiantSnail>
+			<GiantSpider>1.9</GiantSpider>
+			<LureLizard>1.9</LureLizard>
+			<Maxolotl>1.9</Maxolotl>
+			<Mole>1.9</Mole>
+			<BovineBeetle>1.9</BovineBeetle>
+			<FeelerSnake>1.9</FeelerSnake>
+			<Crystalope>1.9</Crystalope>
+			<MossBeetle>1.9</MossBeetle>
+			<RhinoBeetle>1.9</RhinoBeetle>
 		</wildAnimals>
 		<allowedPackAnimals>
 			<li>Alpaca</li>
@@ -480,14 +484,14 @@
 		<label>cave entrance</label>
 		<description>The entrance area to an underground cave system on the side of a mountain. Various tunnels are heading deep into the mountain, some of them may lead to another exit or exotic underground biotopes. The outside area is very rocky, so only plants and animals accustomed to the harsh terrain live here.</description>
 		<workerClass>Terra.BiomeWorkerSpecial_CaveEntrance</workerClass>
-		<animalDensity>0.05</animalDensity>
-		<plantDensity>0.18</plantDensity>
+		<animalDensity>1.14</animalDensity>
+		<plantDensity>1.6</plantDensity>
 		<settlementSelectionWeight>0</settlementSelectionWeight>
 		<movementDifficulty>3</movementDifficulty>
 		<texture>World/Biomes/CaveEntrance</texture>
 		<forageability>0.5</forageability>
 		<foragedFood>RawBerries</foragedFood>
-		<wildPlantRegrowDays>30</wildPlantRegrowDays>
+		<wildPlantRegrowDays>0.5</wildPlantRegrowDays>
 		<diseaseMtbDays>70</diseaseMtbDays>
 		<diseases>
 			<li>
@@ -587,21 +591,18 @@
 			<Plant_HealrootWild>0.005</Plant_HealrootWild>
 		</wildPlants>
 		<wildAnimals>
-			<Hare>1.0</Hare>
-			<Squirrel>1.0</Squirrel>
-			<Rat>1.8</Rat>
-			<Deer>0.2</Deer>
-			<WildBoar>0.5</WildBoar>
-			<Iguana>0.2</Iguana>
-			<Turkey>0.1</Turkey>
-			<Raccoon>0.3</Raccoon>
-			<Boomrat>0.25</Boomrat>
-			<Muffalo>0.1</Muffalo>
-			<Wolf_Timber>0.06</Wolf_Timber>
-			<Fox_Red>0.11</Fox_Red>
-			<Bear_Grizzly>0.09</Bear_Grizzly>
-			<Warg>0.02</Warg>
-			<Lynx>0.03</Lynx>
+			<FruitBat>1.9</FruitBat>
+			<VampireBat>1.9</VampireBat>
+			<GiantSnail>1.9</GiantSnail>
+			<GiantSpider>1.9</GiantSpider>
+			<LureLizard>1.9</LureLizard>
+			<Maxolotl>1.9</Maxolotl>
+			<Mole>1.9</Mole>
+			<BovineBeetle>1.9</BovineBeetle>
+			<FeelerSnake>1.9</FeelerSnake>
+			<Crystalope>1.9</Crystalope>
+			<MossBeetle>1.9</MossBeetle>
+			<RhinoBeetle>1.9</RhinoBeetle>
 		</wildAnimals>
 		<allowedPackAnimals>
 			<li>Alpaca</li>
@@ -771,14 +772,14 @@
 		<label>infested mountains</label>
 		<description>An underground cave system interconnecting many sinkholes of various sizes. The sinkholes are of natural origin, the cave tunnels not so much. Gigant insectoids dug these tunnels over years and now live in them. Don't get tempted by the peaceful look of the overgrown sinkholes, this area is dangerous!</description>
 		<workerClass>Terra.BiomeWorkerSpecial_InfestedMountains</workerClass>
-		<animalDensity>0.4</animalDensity>
-		<plantDensity>0.55</plantDensity>
+		<animalDensity>1.14</animalDensity>
+		<plantDensity>1.6</plantDensity>
 		<settlementSelectionWeight>0</settlementSelectionWeight>
 		<movementDifficulty>4</movementDifficulty>
 		<texture>World/Biomes/InfestedMountains</texture>
 		<forageability>0.5</forageability>
 		<foragedFood>RawBerries</foragedFood>
-		<wildPlantRegrowDays>20</wildPlantRegrowDays>
+		<wildPlantRegrowDays>0.5</wildPlantRegrowDays>
 		<diseaseMtbDays>50</diseaseMtbDays>
 		<diseases>
 			<li>
@@ -864,15 +865,18 @@
 			<Plant_HealrootWild>0.005</Plant_HealrootWild>
 		</wildPlants>
 		<wildAnimals>
-			<Hare>0.9</Hare>
-			<Rat>1.8</Rat>
-			<Iguana>0.6</Iguana>
-			<WildBoar>0.1</WildBoar>
-			<Capybara>0.2</Capybara>
-			<Boomrat>0.5</Boomrat>
-			<Boomalope>0.05</Boomalope>
-			<Bear_Grizzly>0.06</Bear_Grizzly>
-			<Cobra>0.04</Cobra>
+			<FruitBat>1.9</FruitBat>
+			<VampireBat>1.9</VampireBat>
+			<GiantSnail>1.9</GiantSnail>
+			<GiantSpider>1.9</GiantSpider>
+			<LureLizard>1.9</LureLizard>
+			<Maxolotl>1.9</Maxolotl>
+			<Mole>1.9</Mole>
+			<BovineBeetle>1.9</BovineBeetle>
+			<FeelerSnake>1.9</FeelerSnake>
+			<Crystalope>1.9</Crystalope>
+			<MossBeetle>1.9</MossBeetle>
+			<RhinoBeetle>1.9</RhinoBeetle>
 		</wildAnimals>
 		<allowedPackAnimals>
 			<li>Alpaca</li>
