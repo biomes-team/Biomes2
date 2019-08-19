@@ -15,7 +15,7 @@
         {
             "label": "test",
             "type": "shell",
-            "command": "C:\\Users\\kfish\\Documents\\RimWorldModded\\RimWorldWin64.exe -quicktest -savedatafolder=C:/Users/kfish/Documents/ModdedSaves",
+            "command": "& 'C:\\Program Files (x86)\\Steam\\Steam.exe' -allowdebug -applaunch 294100 -savedatafolder=C:/Users/kfish/Documents/ModdedSaves",
             "group": {
                 "kind": "test",
                 "isDefault": true

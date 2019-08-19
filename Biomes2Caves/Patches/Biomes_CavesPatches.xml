@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/BiomeDef[defName="CaveOasis" or defName="TunnelworldCave" or defName="CaveEntrance" or defName="InfestedMountains" or defName="DesertCanyon"]</xpath>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName="CaveOasis" or defName="TunnelworldCave" or defName="CaveEntrance" or defName="InfestedMountains" or defName="DesertCanyon"]/animalDensity</xpath>
+                    <value>
+                        <animalDensity>1.14</animalDensity>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName="CaveOasis" or defName="TunnelworldCave" or defName="CaveEntrance" or defName="InfestedMountains" or defName="DesertCanyon"]/wildPlantRegrowDays</xpath>
+                    <value>
+                        <wildPlantRegrowDays>0.5</wildPlantRegrowDays>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/BiomeDef[defName="CaveOasis" or defName="TunnelworldCave" or defName="CaveEntrance" or defName="InfestedMountains" or defName="DesertCanyon"]/wildPlants</xpath>
+                    <value>
+                        <Biomes_GoldenSporecap>3.5</Biomes_GoldenSporecap>
+                        <Biomes_GiantParasol>3.5</Biomes_GiantParasol>
+                        <Biomes_IvoryJadecap>3.5</Biomes_IvoryJadecap>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName="CaveOasis" or defName="TunnelworldCave" or defName="CaveEntrance" or defName="InfestedMountains" or defName="DesertCanyon"]/wildAnimals</xpath>
+                    <value>
+                        <wildAnimals>
+                            <FruitBat>1.9</FruitBat>
+                            <VampireBat>1.9</VampireBat>
+                            <GiantSnail>1.9</GiantSnail>
+                            <GiantSpider>1.9</GiantSpider>
+                            <LureLizard>1.9</LureLizard>
+                            <Maxolotl>1.9</Maxolotl>
+                            <Mole>1.9</Mole>
+                            <BovineBeetle>1.9</BovineBeetle>
+                            <FeelerSnake>1.9</FeelerSnake>
+                            <Crystalope>1.9</Crystalope>
+                            <MossBeetle>1.9</MossBeetle>
+                            <RhinoBeetle>1.9</RhinoBeetle>
+                        </wildAnimals>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
